@@ -1,0 +1,79 @@
+[2026-04-18 12:20:37] PortMonitor started. Listening for switch events...
+[2026-04-18 12:21:28] PortMonitor started. Listening for switch events...
+[2026-04-18 12:46:02] Switch CONNECTED: 00-00-00-00-00-01
+[2026-04-18 12:46:02] Switch CONNECTED: 00-00-00-00-00-03
+[2026-04-18 12:46:02] Switch CONNECTED: 00-00-00-00-00-02
+[2026-04-18 15:11:49] Switch 00-00-00-00-00-01 | Port 3 (s1-eth3) | Reason: MODIFIED | Status: DOWN
+[2026-04-18 15:11:49] *** ALERT *** Port s1-eth3 on switch 00-00-00-00-00-01 is DOWN!
+[2026-04-18 15:11:49] Switch 00-00-00-00-00-02 | Port 3 (s2-eth3) | Reason: MODIFIED | Status: DOWN
+[2026-04-18 15:11:49] *** ALERT *** Port s2-eth3 on switch 00-00-00-00-00-02 is DOWN!
+[2026-04-18 15:11:49] Switch 00-00-00-00-00-02 | Port 3 (s2-eth3) | Reason: MODIFIED | Status: DOWN
+[2026-04-18 15:11:49] *** ALERT *** Port s2-eth3 on switch 00-00-00-00-00-02 is DOWN!
+[2026-04-18 15:12:16] Switch 00-00-00-00-00-01 | Port 3 (s1-eth3) | Reason: MODIFIED | Status: DOWN
+[2026-04-18 15:12:16] *** ALERT *** Port s1-eth3 on switch 00-00-00-00-00-01 is DOWN!
+[2026-04-18 15:12:16] Switch 00-00-00-00-00-01 | Port 3 (s1-eth3) | Reason: MODIFIED | Status: UP
+[2026-04-18 15:12:16] Switch 00-00-00-00-00-02 | Port 3 (s2-eth3) | Reason: MODIFIED | Status: UP
+[2026-04-18 15:23:35] ALERT: Switch DISCONNECTED: 00-00-00-00-00-01
+[2026-04-18 15:23:35] ALERT: Switch DISCONNECTED: 00-00-00-00-00-03
+[2026-04-18 15:23:35] ALERT: Switch DISCONNECTED: 00-00-00-00-00-02
+[2026-04-18 15:23:37] PortMonitor started. Listening for switch events...
+[2026-04-18 15:23:38] Switch CONNECTED: 00-00-00-00-00-01
+[2026-04-18 15:23:38] Switch CONNECTED: 00-00-00-00-00-03
+[2026-04-18 15:23:38] Switch CONNECTED: 00-00-00-00-00-02
+[2026-04-18 15:24:04] Switch 00-00-00-00-00-03 | Port 1 (s3-eth1) | Reason: DELETED | Status: UP
+[2026-04-18 15:24:04] Switch 00-00-00-00-00-01 | Port 2 (s1-eth2) | Reason: DELETED | Status: UP
+[2026-04-18 15:24:04] Switch 00-00-00-00-00-01 | Port 1 (s1-eth1) | Reason: DELETED | Status: UP
+[2026-04-18 15:24:04] Switch 00-00-00-00-00-03 | Port 2 (s3-eth2) | Reason: DELETED | Status: UP
+[2026-04-18 15:24:04] Switch 00-00-00-00-00-02 | Port 2 (s2-eth2) | Reason: DELETED | Status: UP
+[2026-04-18 15:24:04] Switch 00-00-00-00-00-02 | Port 1 (s2-eth1) | Reason: DELETED | Status: UP
+[2026-04-18 15:24:09] Switch 00-00-00-00-00-01 | Port 1 (s1-eth1) | Reason: ADDED | Status: DOWN
+[2026-04-18 15:24:09] *** ALERT *** Port s1-eth1 on switch 00-00-00-00-00-01 is DOWN!
+[2026-04-18 15:24:09] Switch 00-00-00-00-00-01 | Port 1 (s1-eth1) | Reason: MODIFIED | Status: UP
+[2026-04-18 15:24:09] Switch 00-00-00-00-00-01 | Port 2 (s1-eth2) | Reason: ADDED | Status: DOWN
+[2026-04-18 15:24:09] *** ALERT *** Port s1-eth2 on switch 00-00-00-00-00-01 is DOWN!
+[2026-04-18 15:24:09] Switch 00-00-00-00-00-02 | Port 1 (s2-eth1) | Reason: ADDED | Status: UP
+[2026-04-18 15:24:09] Switch 00-00-00-00-00-01 | Port 2 (s1-eth2) | Reason: MODIFIED | Status: UP
+[2026-04-18 15:24:09] Switch 00-00-00-00-00-02 | Port 2 (s2-eth2) | Reason: ADDED | Status: DOWN
+[2026-04-18 15:24:09] *** ALERT *** Port s2-eth2 on switch 00-00-00-00-00-02 is DOWN!
+[2026-04-18 15:24:09] Switch 00-00-00-00-00-02 | Port 2 (s2-eth2) | Reason: MODIFIED | Status: UP
+[2026-04-18 15:24:09] Switch 00-00-00-00-00-03 | Port 1 (s3-eth1) | Reason: ADDED | Status: UP
+[2026-04-18 15:24:09] Switch 00-00-00-00-00-03 | Port 2 (s3-eth2) | Reason: ADDED | Status: DOWN
+[2026-04-18 15:24:09] *** ALERT *** Port s3-eth2 on switch 00-00-00-00-00-03 is DOWN!
+[2026-04-18 15:24:09] Switch 00-00-00-00-00-03 | Port 2 (s3-eth2) | Reason: MODIFIED | Status: UP
+[2026-04-18 15:24:09] Switch 00-00-00-00-00-01 | Port 1 (s1-eth1) | Reason: DELETED | Status: UP
+[2026-04-18 15:24:10] Switch 00-00-00-00-00-01 | Port 2 (s1-eth2) | Reason: DELETED | Status: UP
+[2026-04-18 15:24:10] Switch 00-00-00-00-00-03 | Port 2 (s3-eth2) | Reason: DELETED | Status: UP
+[2026-04-18 15:24:10] Switch 00-00-00-00-00-03 | Port 1 (s3-eth1) | Reason: DELETED | Status: UP
+[2026-04-18 15:24:10] Switch 00-00-00-00-00-02 | Port 2 (s2-eth2) | Reason: DELETED | Status: UP
+[2026-04-18 15:24:10] Switch 00-00-00-00-00-02 | Port 1 (s2-eth1) | Reason: DELETED | Status: UP
+[2026-04-18 15:25:19] ALERT: Switch DISCONNECTED: 00-00-00-00-00-01
+[2026-04-18 15:25:20] ALERT: Switch DISCONNECTED: 00-00-00-00-00-03
+[2026-04-18 15:25:20] ALERT: Switch DISCONNECTED: 00-00-00-00-00-02
+[2026-04-18 15:25:28] Switch CONNECTED: 00-00-00-00-00-02
+[2026-04-18 15:25:28] Switch CONNECTED: 00-00-00-00-00-01
+[2026-04-18 15:25:28] Switch CONNECTED: 00-00-00-00-00-03
+[2026-04-18 15:31:42] Switch 00-00-00-00-00-01 | Port 3 (s1-eth3) | Reason: MODIFIED | Status: DOWN
+[2026-04-18 15:31:42] *** ALERT *** Port s1-eth3 on switch 00-00-00-00-00-01 is DOWN!
+[2026-04-18 15:31:42] Switch 00-00-00-00-00-02 | Port 3 (s2-eth3) | Reason: MODIFIED | Status: DOWN
+[2026-04-18 15:31:42] *** ALERT *** Port s2-eth3 on switch 00-00-00-00-00-02 is DOWN!
+[2026-04-18 15:31:42] Switch 00-00-00-00-00-02 | Port 3 (s2-eth3) | Reason: MODIFIED | Status: DOWN
+[2026-04-18 15:31:42] *** ALERT *** Port s2-eth3 on switch 00-00-00-00-00-02 is DOWN!
+[2026-04-18 15:31:55] Switch 00-00-00-00-00-01 | Port 3 (s1-eth3) | Reason: MODIFIED | Status: DOWN
+[2026-04-18 15:31:55] *** ALERT *** Port s1-eth3 on switch 00-00-00-00-00-01 is DOWN!
+[2026-04-18 15:31:55] Switch 00-00-00-00-00-01 | Port 3 (s1-eth3) | Reason: MODIFIED | Status: UP
+[2026-04-18 15:31:55] Switch 00-00-00-00-00-02 | Port 3 (s2-eth3) | Reason: MODIFIED | Status: UP
+[2026-04-20 06:41:07] ALERT: Switch DISCONNECTED: 00-00-00-00-00-02
+[2026-04-20 06:41:07] ALERT: Switch DISCONNECTED: 00-00-00-00-00-01
+[2026-04-20 06:41:07] ALERT: Switch DISCONNECTED: 00-00-00-00-00-03
+[2026-04-20 06:50:56] PortMonitor started. Listening for switch events...
+[2026-04-20 06:51:06] Switch CONNECTED: 00-00-00-00-00-01
+[2026-04-20 06:51:06] Switch CONNECTED: 00-00-00-00-00-03
+[2026-04-20 06:51:06] Switch CONNECTED: 00-00-00-00-00-02
+[2026-04-20 06:53:06] Switch 00-00-00-00-00-01 | Port 3 (s1-eth3) | Reason: MODIFIED | Status: DOWN
+[2026-04-20 06:53:06] *** ALERT *** Port s1-eth3 on switch 00-00-00-00-00-01 is DOWN!
+[2026-04-20 06:53:06] Switch 00-00-00-00-00-02 | Port 3 (s2-eth3) | Reason: MODIFIED | Status: DOWN
+[2026-04-20 06:53:06] *** ALERT *** Port s2-eth3 on switch 00-00-00-00-00-02 is DOWN!
+[2026-04-20 06:54:21] Switch 00-00-00-00-00-01 | Port 3 (s1-eth3) | Reason: MODIFIED | Status: DOWN
+[2026-04-20 06:54:21] *** ALERT *** Port s1-eth3 on switch 00-00-00-00-00-01 is DOWN!
+[2026-04-20 06:54:21] Switch 00-00-00-00-00-01 | Port 3 (s1-eth3) | Reason: MODIFIED | Status: UP
+[2026-04-20 06:54:21] Switch 00-00-00-00-00-02 | Port 3 (s2-eth3) | Reason: MODIFIED | Status: UP
