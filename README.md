@@ -9,10 +9,14 @@ generates alerts when ports go down, and displays current port status.
 - 3 switches (s1, s2, s3) connected in a line
 - 6 hosts (h1-h6), 2 per switch
 - Remote POX controller on 127.0.0.1:6633
-h1 ──┐                 ┌── h5
+## Topology
+
+```
+h1 ──┐                    ┌── h5
      s1 ───── s2 ───── s3
 h2 ──┘   |         |   └── h6
-        h3        h4
+         h3        h4
+```
 
 ## Setup & Execution
 
